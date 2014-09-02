@@ -1,9 +1,9 @@
 # nesC.tmbundle #
 
 This bundle is [nesC](http://nescc.sourceforge.net/) syntax highlighter which is used for developing [TinyOS](http://www.tinyos.net/) applications.
-It works with [TextMate](http://macromates.com/) and [Sublime Text 2](http://www.sublimetext.com/2).
+It works with [TextMate](http://macromates.com/), [Sublime Text 2](http://www.sublimetext.com/2) and [Sublime Text 3](http://www.sublimetext.com/3).
 
-It is based on <https://github.com/colagrosso/nesC-Syntax-Highlighting>
+It is based on <https://github.com/cdwilson/nesC.tmbundle> which is turn was based on <https://github.com/colagrosso/nesC-Syntax-Highlighting>.
 
 ## TextMate Install ##
 
@@ -24,6 +24,16 @@ Then, from within TextMate select Bundles -> Bundle Editor -> Reload Bundles
 
     cd ~/.config/sublime-text-2/Packages
     git clone git://github.com/cdwilson/nesC.tmbundle.git
+	
+## Sublime Text 3 Install ##
+
+### Linux ###
+
+	cd ~
+	git clone https://github.com/MBradbury/nesC-Sublime-Syntax-Highlighter.git
+	cd nesC-Sublime-Syntax-Highlighter
+	make st3
+	cp nesC.sublime-package ~/.config/sublime-text-3/Packages
 
 ## License ##
 
