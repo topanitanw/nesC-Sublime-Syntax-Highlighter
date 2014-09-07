@@ -9,4 +9,4 @@ README.html: README.md
 	markdown $< > $@
 
 clean:
-	rm -f README.html
+	rm -f README.html nesC.sublime-package
