@@ -33,7 +33,7 @@ Then, from within TextMate select Bundles -> Bundle Editor -> Reload Bundles
 	git clone https://github.com/MBradbury/nesC-Sublime-Syntax-Highlighter.git
 	cd nesC-Sublime-Syntax-Highlighter
 	make st3
-	cp nesC.sublime-package ~/.config/sublime-text-3/Packages
+	cp -f nesC.sublime-package ~/.config/sublime-text-3/Installed\ Packages
 
 ## License ##
 
