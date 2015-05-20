@@ -34,6 +34,12 @@ Then, from within TextMate select Bundles -> Bundle Editor -> Reload Bundles
 	cd nesC-Sublime-Syntax-Highlighter
 	make st3
 	cp -f nesC.sublime-package ~/.config/sublime-text-3/Installed\ Packages
+	
+## Windows ###
+	clone or download the nesC.sublime-package. Copy the package file and paste it to 
+	<execution path>\Sublime Text 3\Packages. Restart the program.
+	
+	In my case, the <execution path> is C:\Program Files\.
 
 ## License ##
 
